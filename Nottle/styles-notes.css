@@ -1,0 +1,203 @@
+::before,
+::after{
+    margin: 0;
+    padding: 0;
+}
+
+html { 
+    width:100%; 
+    height:100%; 
+    margin:0;
+}
+body {
+    width:100%; height:100%; margin:0; padding:0; 
+}
+
+a{
+    display:block;
+    text-decoration:none;
+}
+
+.container{
+    max-width: auto;
+    margin:0 auto;
+    padding:0 0;
+}
+
+header{
+    position: fixed;
+    display: flex;
+    top: 0;
+    z-index: 1400;
+    width: 100%;
+    background-color: rgba(59, 117, 202, 0.8);
+    backdrop-filter: blur(2rem);
+    border-bottom: 3px solid;
+    border-color: #fff;
+    opacity: 90%;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 5px;
+}
+.nav-link{
+    color: #fff;
+    margin-right: 50px;
+    transition: color .3s ease;
+}
+.notes-link{
+    color:#cdcdcd;
+}
+.nav-link:hover{
+    color: #cdcdcd;
+}
+.nav-strings{
+    position: absolute;
+    right: 30px;
+    top: 40px;
+    font-size: 25px;
+    font-family: arial black;
+}
+
+.nav-list-mobile{
+    display: none;
+}
+.logo{
+    background-image: url("images/logo-color-removebg-preview.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 120px;
+    margin-top: -10px;
+    margin-left: 0px;
+}
+.main-body{
+    width: 100%;
+    height: 2000px;
+    background-image: url("images/1000_F_269791942_euXhIyDKpmnscrDSzeNMs1JZVIVbq9FK-transformed.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -10px;
+    padding: 40px;
+    padding-top: 60px;
+    box-sizing: border-box;
+}
+.module-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -50px;
+}
+.module{
+    background-color: #fff;
+    margin-top: 100px;
+    width: 500px;
+    height: 800px;
+    border: 3px solid;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.top-section{
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(59, 117, 202, 0.8);
+    height: 200px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom: 3px solid;
+}
+.main-subject{
+    margin-top: 40px;
+    text-align: center;
+    font-family: arial black;
+    font-size: 40px;
+    color: #fff;
+}
+.bottom-section{
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: center;
+}
+.button-row{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    margin: 20px;
+}
+.subject{
+    width: 150px;
+    height: 60px;
+    font-size: 20px;
+    border: 2px solid;
+    border-color: #000000;
+    border-radius: 10px;
+    transition: background-color .3s ease;
+}
+.subject:hover{
+    background-color: inherit;
+    cursor: pointer;
+}
+.picture{
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    margin-right: 10px;
+}
+.science{
+    background-image: url("images/Science-Logo-Graphics-1-14-removebg-preview\ \(1\).png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.history{
+    background-image: url("images/490-4909420_vector-illustration-of-school-history-class-textbook-school-removebg-preview.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.math{
+    background-image: url("images/a7485c3cfc976529abb42a06d577a2bd573b0b76af3acdadd4d54872d1cd301f-removebg-preview\ \(1\).png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.english{
+    background-image: url("images/collection-colored-thin-icon-of-english-language-learning-subject-book-graduated-hat-learning-and-education-concept-illustration-vector-removebg-preview\ \(1\).png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.language{
+    background-image: url("images/3898150.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.other{
+    background-image: url("images/logo-programming-language-computer-engineering-artwork-removebg-preview\ \(1\).png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.heading{
+    margin-top: 100px;
+    justify-content: center;
+    margin-bottom: -80px;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(255, 255, 255, .4);
+    padding-bottom: .5px;
+}
+.title{
+    text-align: center;
+    font-family: arial black;
+    font-size: 50px;
+    margin-bottom: -10px;
+}
+.description{
+    text-align: center;
+}
